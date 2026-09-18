@@ -1,0 +1,52 @@
+name: Product or architecture proposal
+description: Propose one focused, verifiable change to MUTANT.
+title: "[Proposal]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping MUTANT evolve in public. Please separate evidence from assumptions.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who experiences this problem, and what evidence shows that it matters?
+      placeholder: Describe the user, context, and current pain.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Smallest useful change
+      description: Describe the narrowest solution that would create measurable value.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: How can another person prove the change works?
+      placeholder: Tests, reproduction steps, success metric, or demo.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and trade-offs
+      description: Consider security, privacy, cost, compatibility, and maintenance.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What simpler option did you consider?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues first.
+          required: true
+        - label: I have not included secrets, private data, or undisclosed vulnerability details.
+          required: true
