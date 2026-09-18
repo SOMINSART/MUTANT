@@ -1,5 +1,7 @@
 # MUTANT
 
+![MUTANT — public project by SOMINSART](docs/brand/mutant-social-preview.png)
+
 [![GitHub stars](https://img.shields.io/github/stars/SOMINSART/MUTANT?style=social)](https://github.com/SOMINSART/MUTANT/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/SOMINSART/MUTANT?style=social)](https://github.com/SOMINSART/MUTANT/watchers)
 
