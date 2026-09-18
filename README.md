@@ -27,8 +27,13 @@ This repository is currently at its **public foundation stage**. No executable r
 
 ### Documentation
 
+- [Public roadmap](ROADMAP.md)
 - [Authentication: current state and proposed architecture](docs/authentication/README.md)
 - [Press kit and verified project facts](docs/press-kit/README.md)
+- [Brand assets](docs/brand/README.md)
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [First public design question](https://github.com/SOMINSART/MUTANT/issues/1)
 
 ### Follow the project
 
@@ -57,8 +62,13 @@ Le dépôt se trouve actuellement au **stade de fondation publique**. Il ne pré
 
 ### Documentation
 
+- [Feuille de route publique](ROADMAP.md)
 - [Authentification : état actuel et architecture proposée](docs/authentication/README.md)
 - [Kit presse et faits vérifiés sur le projet](docs/press-kit/README.md)
+- [Identité visuelle](docs/brand/README.md)
+- [Guide de contribution](CONTRIBUTING.md)
+- [Politique de sécurité](SECURITY.md)
+- [Première question publique de conception](https://github.com/SOMINSART/MUTANT/issues/1)
 
 ### Suivre le projet
 
