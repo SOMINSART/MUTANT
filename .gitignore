@@ -1,0 +1,8 @@
+node_modules/
+.mutant/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+
