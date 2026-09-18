@@ -1,0 +1,18 @@
+{
+  "name": "@sominsart/mutant",
+  "version": "0.1.0-alpha.1",
+  "description": "Evidence-driven mutation ledger for projects that evolve in public.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "mutant": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node ./src/cli.js --help"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

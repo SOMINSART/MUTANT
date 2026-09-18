@@ -9,13 +9,31 @@
 >
 > Un projet public de **SOMINSART**, construit au grand jour et pensé pour évoluer.
 
+## Experimental prototype — mutation ledger
+
+MUTANT is testing a concrete direction: a local, dependency-free CLI that turns uncertain project changes into an evidence-backed ledger. Each mutation records a problem, hypothesis, success metric, evidence, and decision. A proposal cannot be accepted or rejected until evidence exists.
+
+> **Experimental:** this direction is under public review and is not a stable release.
+
+```bash
+npm ci
+node ./src/cli.js init --name my-project
+node ./src/cli.js --help
+npm test
+```
+
+- [Read the proposed product brief](docs/product/brief.md)
+- [See a complete mutation cycle](examples/first-mutation.md)
+
+**Français :** le prototype transforme les idées de changement en décisions traçables fondées sur des preuves. Il fonctionne localement, sans compte, réseau, télémétrie ni dépendance d’exécution.
+
 ## English
 
 ### Why MUTANT
 
 MUTANT is being launched in public from its first commit. The name expresses the project's guiding idea: evolve visibly, document decisions, test assumptions, and let feedback shape what comes next.
 
-This repository is currently at its **public foundation stage**. No executable release or finished product is claimed yet. Scope, architecture, implementation, security decisions, and releases will be published here as they become real.
+This repository is at its **public prototype stage**. An experimental mutation-ledger CLI is under review, but no stable release or finished product is claimed yet. Scope, architecture, security decisions, and releases will remain tied to public evidence.
 
 ### Public roadmap
 
@@ -50,7 +68,7 @@ This repository is currently at its **public foundation stage**. No executable r
 
 MUTANT est lancé publiquement dès son premier commit. Son nom exprime le principe du projet : évoluer de manière visible, documenter les décisions, tester les hypothèses et laisser les retours guider la suite.
 
-Le dépôt se trouve actuellement au **stade de fondation publique**. Il ne prétend pas encore proposer une version exécutable ou un produit terminé. Le périmètre, l'architecture, l'implémentation, les décisions de sécurité et les versions seront publiés ici lorsqu'ils existeront réellement.
+Le dépôt se trouve au **stade de prototype public**. Une CLI expérimentale de registre de mutations est en cours d’examen, mais aucune version stable ni aucun produit terminé n’est encore revendiqué. Le périmètre, l’architecture, la sécurité et les versions resteront liés à des preuves publiques.
 
 ### Feuille de route publique
 
