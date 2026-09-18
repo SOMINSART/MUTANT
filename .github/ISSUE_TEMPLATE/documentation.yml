@@ -1,0 +1,43 @@
+name: Documentation or factual correction
+description: Report unclear, outdated, contradictory, or unverifiable project information.
+title: "[Docs]: "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Factual correction
+        - Broken link
+        - Accessibility
+        - Translation
+        - Missing explanation
+        - Press-kit correction
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link to the file, heading, or exact passage.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+      description: Explain the problem and provide a source when correcting a factual claim.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+      description: Optional concise replacement text.
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safety check
+      options:
+        - label: This report contains no secrets, private data, or undisclosed vulnerability details.
+          required: true
